@@ -1,0 +1,26 @@
+{
+    "name": "ananya809",
+    "id": "/subscriptions/9011af14-fa0b-4e06-85d1-7759e5077f59/resourceGroups/new/providers/Microsoft.DataFactory/factories/ananya809",
+    "type": "Microsoft.DataFactory/factories",
+    "properties": {
+        "provisioningState": "Succeeded",
+        "createTime": "2025-07-18T18:18:39.4938143Z",
+        "version": "2018-06-01",
+        "factoryStatistics": {
+            "totalResourceCount": 0,
+            "maxAllowedResourceCount": 0,
+            "factorySizeInGbUnits": 0,
+            "maxAllowedFactorySizeInGbUnits": 0
+        },
+        "publicNetworkAccess": "Enabled"
+    },
+    "eTag": "\"1100128f-0000-2000-0000-687a8fff0000\"",
+    "location": "centralindia",
+    "identity": {
+        "type": "SystemAssigned",
+        "principalId": "8b9b8536-94d2-4918-b9f9-2303cfefa4fb",
+        "tenantId": "a5f3fcdd-3e6d-42c2-9449-1aa2b918527a"
+    },
+    "tags": {},
+    "apiVersion": "2018-06-01"
+}

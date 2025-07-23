@@ -33,22 +33,7 @@ Logic Apps / SMTP	Email notification service (optional)
 csharp
 Copy
 Edit
-[SQL Server DB]
-      |
-      | (JDBC)
-      v
-      
-[ADF -> Linked Service]
-      |
-      | (Trigger + Pipeline)
-      v
-      
-[Databricks Notebook]
-      |
-      | (Transformed Data)
-      v
-      
-[Email Notification + File Output]
+[SQL Server DB] (JDBC)-->[ADF -> Linked Service]-->(Trigger + Pipeline)-->[Databricks Notebook](Transformed Data)-->[Email Notification + File Output]
 🗂 Database Schema
 1. Customer Table
 Fields: customer_id, name, address, email, phone_number

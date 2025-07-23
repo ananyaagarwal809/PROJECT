@@ -1,0 +1,44 @@
+{
+    "sku": {
+        "name": "GP_S_Gen5",
+        "tier": "GeneralPurpose",
+        "family": "Gen5",
+        "capacity": 1
+    },
+    "kind": "v12.0,user,vcore,serverless",
+    "properties": {
+        "collation": "SQL_Latin1_General_CP1_CI_AS",
+        "maxSizeBytes": 34359738368,
+        "status": "Online",
+        "databaseId": "24e0f37e-2d8f-4a54-9790-3ff61ca73c66",
+        "creationDate": "2025-07-18T18:07:18.833Z",
+        "currentServiceObjectiveName": "GP_S_Gen5_1",
+        "requestedServiceObjectiveName": "GP_S_Gen5_1",
+        "defaultSecondaryLocation": "southindia",
+        "catalogCollation": "SQL_Latin1_General_CP1_CI_AS",
+        "zoneRedundant": false,
+        "maxLogSizeBytes": 193273528320,
+        "earliestRestoreDate": "2025-07-18T18:14:38Z",
+        "readScale": "Disabled",
+        "currentSku": {
+            "name": "GP_S_Gen5",
+            "tier": "GeneralPurpose",
+            "family": "Gen5",
+            "capacity": 1
+        },
+        "autoPauseDelay": 60,
+        "currentBackupStorageRedundancy": "Geo",
+        "requestedBackupStorageRedundancy": "Geo",
+        "minCapacity": 0.5,
+        "maintenanceConfigurationId": "/subscriptions/9011af14-fa0b-4e06-85d1-7759e5077f59/providers/Microsoft.Maintenance/publicMaintenanceConfigurations/SQL_Default",
+        "isLedgerOn": false,
+        "isInfraEncryptionEnabled": false,
+        "availabilityZone": "NoPreference"
+    },
+    "location": "centralindia",
+    "tags": {},
+    "id": "/subscriptions/9011af14-fa0b-4e06-85d1-7759e5077f59/resourceGroups/NEW/providers/Microsoft.Sql/servers/ananya809/databases/db1",
+    "name": "db1",
+    "type": "Microsoft.Sql/servers/databases",
+    "apiVersion": "2022-11-01-preview"
+}

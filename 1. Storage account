@@ -1,0 +1,75 @@
+{
+    "sku": {
+        "name": "Standard_RAGRS",
+        "tier": "Standard"
+    },
+    "kind": "StorageV2",
+    "id": "/subscriptions/9011af14-fa0b-4e06-85d1-7759e5077f59/resourceGroups/NEW/providers/Microsoft.Storage/storageAccounts/ananya809",
+    "name": "ananya809",
+    "type": "Microsoft.Storage/storageAccounts",
+    "location": "centralindia",
+    "tags": {},
+    "properties": {
+        "dnsEndpointType": "Standard",
+        "defaultToOAuthAuthentication": false,
+        "publicNetworkAccess": "Enabled",
+        "keyCreationTime": {
+            "key1": "2025-07-18T18:22:48.9134799Z",
+            "key2": "2025-07-18T18:22:48.9134799Z"
+        },
+        "allowCrossTenantReplication": false,
+        "privateEndpointConnections": [],
+        "isSftpEnabled": false,
+        "minimumTlsVersion": "TLS1_2",
+        "allowBlobPublicAccess": false,
+        "allowSharedKeyAccess": true,
+        "largeFileSharesState": "Enabled",
+        "isHnsEnabled": true,
+        "networkAcls": {
+            "bypass": "AzureServices",
+            "virtualNetworkRules": [],
+            "ipRules": [],
+            "defaultAction": "Allow"
+        },
+        "supportsHttpsTrafficOnly": true,
+        "encryption": {
+            "requireInfrastructureEncryption": false,
+            "services": {
+                "file": {
+                    "keyType": "Account",
+                    "enabled": true,
+                    "lastEnabledTime": "2025-07-18T18:22:48.9134799Z"
+                },
+                "blob": {
+                    "keyType": "Account",
+                    "enabled": true,
+                    "lastEnabledTime": "2025-07-18T18:22:48.9134799Z"
+                }
+            },
+            "keySource": "Microsoft.Storage"
+        },
+        "accessTier": "Hot",
+        "provisioningState": "Succeeded",
+        "creationTime": "2025-07-18T18:22:48.8353042Z",
+        "primaryEndpoints": {
+            "dfs": "https://ananya809.dfs.core.windows.net/",
+            "web": "https://ananya809.z29.web.core.windows.net/",
+            "blob": "https://ananya809.blob.core.windows.net/",
+            "queue": "https://ananya809.queue.core.windows.net/",
+            "table": "https://ananya809.table.core.windows.net/",
+            "file": "https://ananya809.file.core.windows.net/"
+        },
+        "primaryLocation": "centralindia",
+        "statusOfPrimary": "available",
+        "secondaryLocation": "southindia",
+        "statusOfSecondary": "available",
+        "secondaryEndpoints": {
+            "dfs": "https://ananya809-secondary.dfs.core.windows.net/",
+            "web": "https://ananya809-secondary.z29.web.core.windows.net/",
+            "blob": "https://ananya809-secondary.blob.core.windows.net/",
+            "queue": "https://ananya809-secondary.queue.core.windows.net/",
+            "table": "https://ananya809-secondary.table.core.windows.net/"
+        }
+    },
+    "apiVersion": "2022-05-01"
+}

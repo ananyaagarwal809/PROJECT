@@ -1,0 +1,67 @@
+{
+    "properties": {
+        "managedResourceGroupId": "/subscriptions/9011af14-fa0b-4e06-85d1-7759e5077f59/resourceGroups/databricks-rg-rawdata-oycva6kyqlfaq",
+        "parameters": {
+            "enableFedRampCertification": {
+                "type": "Bool",
+                "value": false
+            },
+            "enableNoPublicIp": {
+                "type": "Bool",
+                "value": true
+            },
+            "prepareEncryption": {
+                "type": "Bool",
+                "value": false
+            },
+            "requireInfrastructureEncryption": {
+                "type": "Bool",
+                "value": false
+            },
+            "resourceTags": {
+                "type": "Object",
+                "value": {
+                    "application": "databricks",
+                    "databricks-environment": "true"
+                }
+            },
+            "storageAccountName": {
+                "type": "String",
+                "value": "dbstorage2fgu5uetxldrg"
+            },
+            "storageAccountSkuName": {
+                "type": "String",
+                "value": "Standard_GRS"
+            }
+        },
+        "provisioningState": "Succeeded",
+        "authorizations": [
+            {
+                "principalId": "9a74af6f-d153-4348-988a-e2672920bee9",
+                "roleDefinitionId": "8e3af657-a8ff-443c-a75c-2fe8c4bcb635"
+            }
+        ],
+        "createdBy": {
+            "oid": "815699a0-74f2-4f34-8428-8da459b9c72e",
+            "puid": "00037FFE63541749",
+            "applicationId": "c44b4083-3bb0-49c1-b47d-974e53cbdf3c"
+        },
+        "updatedBy": {
+            "oid": "815699a0-74f2-4f34-8428-8da459b9c72e",
+            "puid": "00037FFE63541749",
+            "applicationId": "c44b4083-3bb0-49c1-b47d-974e53cbdf3c"
+        },
+        "workspaceId": "372067550047544",
+        "workspaceUrl": "adb-372067550047544.4.azuredatabricks.net",
+        "createdDateTime": "2025-07-18T18:25:41.4799743Z"
+    },
+    "id": "/subscriptions/9011af14-fa0b-4e06-85d1-7759e5077f59/resourceGroups/NEW/providers/Microsoft.Databricks/workspaces/rawdata",
+    "name": "rawdata",
+    "type": "Microsoft.Databricks/workspaces",
+    "sku": {
+        "name": "premium"
+    },
+    "location": "centralindia",
+    "tags": {},
+    "apiVersion": "2018-04-01"
+}

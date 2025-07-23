@@ -8,15 +8,20 @@ The goal is to create an end-to-end data ingestion and transformation pipeline t
 ⚙ Key Features
 🏗 SQL Server Table Setup
 
+
 🔌 Secure Integration with Azure Data Factory using JDBC
+
 
 📈 CDC Logic Executed with Databricks Notebooks
 
+
 ⏰ Scheduled Execution Every Hour
+
 
 📧 Email Notification with File Attachment
 
-🛠 Technologies Used
+
+🛠 Technologies Used-->
 Tool/Service	Purpose
 SQL Server,Source data storage (Customer, Product, etc.)
 Azure Data Factory, Orchestration and scheduling engine
@@ -32,14 +37,17 @@ Edit
       |
       | (JDBC)
       v
+      
 [ADF -> Linked Service]
       |
       | (Trigger + Pipeline)
       v
+      
 [Databricks Notebook]
       |
       | (Transformed Data)
       v
+      
 [Email Notification + File Output]
 🗂 Database Schema
 1. Customer Table
